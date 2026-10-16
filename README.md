@@ -5,13 +5,14 @@ Aquí solo están las versiones para instalar.
 
 ## Instalar
 
-1. Descarga la última versión: **[Presupuestos.zip](https://github.com/andresantonager/presupuestos-versiones/releases/latest/download/Presupuestos.zip)**.
-2. Antes de descomprimir: clic derecho en el zip → **Propiedades** → marca **Desbloquear** → Aceptar.
-3. Descomprímelo en una carpeta fija (por ejemplo, `C:\Presupuestos`) y abre `Presupuestos\Presupuestos.exe`.
-   La primera vez Windows avisará (SmartScreen) porque el programa no está firmado: **Más información** → **Ejecutar de todas formas**.
-4. Necesita Windows 10 u 11 de 64 bits. Recomendado: [LibreOffice](https://es.libreoffice.org/), para que los PDF salgan con el formato de la empresa.
+1. Descarga el instalador: **[Instalar-Presupuestos.exe](https://github.com/andresantonager/presupuestos-versiones/releases/latest/download/Instalar-Presupuestos.exe)**.
+   Si el navegador avisa de que «no se descarga con frecuencia», elige **Conservar**.
+2. Ábrelo. La primera vez Windows avisará (SmartScreen) porque el programa no está firmado: **Más información** → **Ejecutar de todas formas**.
+3. Pulsa **Instalar** (si quieres, deja marcado el acceso directo en el escritorio) y después **Finalizar**: se abre la app.
 
-No la pongas en «Archivos de programa»: ahí Windows no la deja actualizarse sola.
+No hace falta ser administrador: se instala para tu usuario. Se desinstala desde Configuración → Aplicaciones, como cualquier otra.
+
+Necesita Windows 10 u 11 de 64 bits. Recomendado: [LibreOffice](https://es.libreoffice.org/), para que los PDF salgan con el formato de la empresa.
 
 ## Primeros pasos
 
@@ -23,9 +24,11 @@ No la pongas en «Archivos de programa»: ahí Windows no la deja actualizarse s
 
 ## Actualizar
 
-Se actualiza sola. Cuando hay una versión nueva, la app avisa junto a su nombre y en Ajustes → Datos → Actualizaciones. Pulsa **Actualizar**: se cierra un momento y se abre ya actualizada.
+No hay que hacer nada: se actualiza sola, sin preguntar. Cuando hay una versión nueva, la descarga en segundo plano y la instala al cerrar la app, o al abrirla la próxima vez. En Ajustes → Datos → Actualizaciones se ve cómo va y está el botón «Actualizar ahora».
 
 Tus presupuestos, ajustes y claves no se tocan, porque están en otro sitio:
 - `Documentos\Presupuestos`
 - `%APPDATA%\Presupuestos`
 - `%LOCALAPPDATA%\Presupuestos`
+
+Sin instalador también vale: descarga [Presupuestos.zip](https://github.com/andresantonager/presupuestos-versiones/releases/latest/download/Presupuestos.zip) y descomprímelo en una carpeta tuya, como `C:\Presupuestos`, no en «Archivos de programa». Antes, clic derecho → Propiedades → Desbloquear.
